@@ -1,0 +1,41 @@
+{
+    "name": "fabric-network",
+    "version": "1.0.0",
+    "client": {
+        "organization": "Org1",
+        "connection": {
+            "timeout": {
+                "peer": {
+                    "endorser": "300"
+                }
+            }
+        }
+    },
+    "organizations": {
+        "Org1": {
+            "mspid": "org1-office-com",
+            "peers": ["peer0.org1.office.com"],
+            "certificateAuthorities": ["ca-org1"]
+        }
+    },
+    "peers": {
+        "peer0.org1.office.com": {
+            "url": "grpcs://localhost:7051",
+            "tlsCACerts": {
+                "path": "../Network/organizations/peerOrganizations/org1.office.com/peers/peer0.org1.office.com/tls/ca.crt"
+            }
+        }
+    },
+    "certificateAuthorities": {
+        "ca-org1": {
+            "url": "https://localhost:7054",
+            "caName": "ca-org1",
+            "tlsCACerts": {
+                "path": "../Network/organizations/fabric-ca/org1/ca-cert.pem"
+            },
+            "httpOptions": {
+                "verify": false
+            }
+        }
+    }
+}
