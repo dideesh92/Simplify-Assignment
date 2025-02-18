@@ -40,7 +40,7 @@ Ensure you have the following installed:
 | **Operation**   | 🛠 **Admin** | 🕵️ **Auditor** | 👤 **User** |
 |---------------|:------------:|:-------------:|:----------:|
 | **Create Asset**  | ✅ | ❌ | ❌ |
-| **View All Assets**  | ✅ | ✅ | ❌ |
+| **View All Assets**  | ❌  | ✅ | ❌ |
 | **View Own Assets**  | ✅ | ✅ | ✅ |
 | **Update Asset**  | ✅ | ❌ | ❌ |
 | **Delete Asset**  | ✅ | ❌ | ❌ |
