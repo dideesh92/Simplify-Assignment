@@ -50,8 +50,8 @@ This system leverages **Hyperledger Fabric**'s permissioned blockchain to provid
 ## 🛠️ Installation & Setup
 ### 🔹 Clone the Repository
 ```sh
-git clone 
-cd task-simplyfi
+git clone https://github.com/dideesh92/Simplify-Assignment.git
+cd task-Simplify-Assignment
 ```
 
 ### 🔹 Set Up Network
