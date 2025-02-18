@@ -34,18 +34,20 @@ Ensure you have the following installed:
 
 ---
 
-## 🏗️ Architecture
-This system leverages **Hyperledger Fabric**'s permissioned blockchain to provide a secure and controlled environment for asset management.
 
-| Operation  | Admin | Auditor | User  |
-|------------|:-----:|:-------:|:-----:|
-| **Create** | ✅   | ❌    | ❌   |
-| **Read All** | ✅   | ✅    | ❌   |
-| **Read Own** | ✅   | ✅    | ✅   |
-| **Update** | ✅   | ❌    | ❌   |
-| **Delete** | ✅   | ❌    | ❌   |
+## 🔒 Access Control Matrix  
+
+| **Operation**   | 🛠 **Admin** | 🕵️ **Auditor** | 👤 **User** |
+|---------------|:------------:|:-------------:|:----------:|
+| **Create Asset**  | ✅ | ❌ | ❌ |
+| **View All Assets**  | ✅ | ✅ | ❌ |
+| **View Own Assets**  | ✅ | ✅ | ✅ |
+| **Update Asset**  | ✅ | ❌ | ❌ |
+| **Delete Asset**  | ✅ | ❌ | ❌ |
 
 ---
+
+
 
 ## 🛠️ Installation & Setup
 ### 🔹 Clone the Repository
